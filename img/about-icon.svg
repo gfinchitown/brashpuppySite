@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<g id="Layer_1" display="none">
+	
+		<ellipse display="inline" fill="#BED62F" stroke="#231F20" stroke-width="10" stroke-miterlimit="10" cx="100" cy="87.1" rx="180" ry="182"/>
+	<g display="inline">
+		<path fill="#231F20" d="M77.3-53.4h45.1v42.7H77.3V-53.4z M77.3,24.6h45.1V229H77.3V24.6z"/>
+	</g>
+</g>
+<g id="square" display="none">
+	<g display="inline">
+		<g>
+			<rect fill="#BED62F" width="200" height="200"/>
+			<path d="M195,5v190H5V5H195 M200,0H0v200h200V0L200,0z"/>
+		</g>
+	</g>
+	<g display="inline">
+		<g>
+			<path d="M114.6,128.3v47.3H85.4V63h29.3v40.3V128.3z"/>
+		</g>
+		<rect x="85" y="25" width="30" height="30"/>
+	</g>
+</g>
+<g id="square_copy">
+	<g>
+		<path fill="#BED62F" d="M0,0.9V200h200v-60.6c-3.2,0.2-6.5,0.3-9.8,0.3C103,139.7,28.6,81.9,0,0.9z"/>
+		<path fill="#BED62F" d="M0,0v0.9c28.6,81,103,138.7,190.2,138.7c3.3,0,6.5-0.1,9.8-0.3V0H0z"/>
+		<path display="none" opacity="0.15" fill="#FFFFFF" d="M0,0v0.9c28.6,81,103,138.7,190.2,138.7c3.3,0,6.5-0.1,9.8-0.3V0H0z"/>
+	</g>
+	<g>
+		<g>
+			<path d="M114.6,128.3v47.3H85.4V63h29.3v40.3V128.3z"/>
+		</g>
+		<rect x="85" y="25" width="30" height="30"/>
+	</g>
+	<circle opacity="0.15" fill="#FFFFFF" cx="100" cy="-24" r="116.5"/>
+</g>
+</svg>
