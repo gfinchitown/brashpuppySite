@@ -8,6 +8,7 @@
 		<link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/puppystyles.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
 		<!--[if lt IE 9]>
 <script src="dist/html5shiv.js"></script>
 <script src="dist/respond.min.js"></script>
@@ -42,51 +43,51 @@
 			<ul id="gallery">
 			<!--Begin Business Cards-->
 				<li>
-					<a href="img/gallery/brumbieGroupMockup.jpg"><img class="gallery-image" alt="Brumbie Group Business Cards" src="img/gallery/brumbieGroupMockup.jpg"></a>
+					<a class="fancybox" rel="group" title="Brumbie Group Business Cards" href="img/gallery/brumbieGroupMockup.jpg"><img class="gallery-image" alt="Brumbie Group Business Cards" src="img/gallery/brumbieGroupMockup.jpg"></a>
 				</li>
 				<li>
-					<a href="img/gallery/homeSweetHomeMockup.jpg"><img class="gallery-image" alt="Home Sweet Home Business Cards" src="img/gallery/homeSweetHomeMockup.jpg"></a>
+					<a class="fancybox" rel="group" title="Home Sweet Home Business Cards" href="img/gallery/homeSweetHomeMockup.jpg"><img class="gallery-image" alt="Home Sweet Home Business Cards" src="img/gallery/homeSweetHomeMockup.jpg"></a>
 				</li>
 				<li>
-					<a href="img/gallery/edgewoodMockup.jpg"><img class="gallery-image" alt="Edgewood Real Estate Business Cards" src="img/gallery/edgewoodMockup.jpg"></a>
+					<a class="fancybox" rel="group" title="Edgewood Real Estate Business Cards" href="img/gallery/edgewoodMockup.jpg"><img class="gallery-image" alt="Edgewood Real Estate Business Cards" src="img/gallery/edgewoodMockup.jpg"></a>
 				</li>
 				
 			<!--Begin Business Collateral Icons-->
 				<li>
-					<a href="img/gallery/bpGermanMockup.jpg"><img class="gallery-image" alt="BP Business Collateral" src="img/gallery/bpGermanMockup.jpg"></a>
+					<a class="fancybox" rel="group" title="BP Business Collateral" href="img/gallery/bpGermanMockup.jpg"><img class="gallery-image" alt="BP Business Collateral" src="img/gallery/bpGermanMockup.jpg"></a>
 				</li>
 				<li>
-					<a href="img/gallery/brooklakeMockup.jpg"><img class="gallery-image" alt="Brooklake Business Collateral" src="img/gallery/brooklakeMockup.jpg"></a>
+					<a class="fancybox" rel="group" title="Brooklake Business Collateral" href="img/gallery/brooklakeMockup.jpg"><img class="gallery-image" alt="Brooklake Business Collateral" src="img/gallery/brooklakeMockup.jpg"></a>
 				</li>
 				
 			<!--Begin Product Labels-->
 				<li>
-					<a href="img/gallery/apothecaryMockup.jpg"><img class="gallery-image" alt=" Apothecary Product Label" src="img/gallery/apothecaryMockup.jpg"></a>
+					<a class="fancybox" rel="group" title="Apothecary Product Label" href="img/gallery/apothecaryMockup.jpg"><img class="gallery-image" alt=" Apothecary Product Label" src="img/gallery/apothecaryMockup.jpg"></a>
 				</li>
 				
 			<!--Begin Web Icons-->
 				<li>
-					<a href="img/gallery/hootMockup.jpg"><img class="gallery-image" alt="Hoot Icons" src="img/gallery/hootMockup.jpg"></a>
+					<a class="fancybox" rel="group" title="Hoot Icons" href="img/gallery/hootMockup.jpg"><img class="gallery-image" alt="Hoot Icons" src="img/gallery/hootMockup.jpg"></a>
 				</li>
 				<li>
-					<a href="img/gallery/iconsMockup1.jpg"><img class="gallery-image" alt="Web Icons" src="img/gallery/iconsMockup1.jpg"></a>
+					<a class="fancybox" rel="group" title="Web Icons" href="img/gallery/iconsMockup1.jpg"><img class="gallery-image" alt="Web Icons" src="img/gallery/iconsMockup1.jpg"></a>
 				</li>
 				<li>
-					<a href="img/gallery/iconsMockup2.jpg"><img class="gallery-image" alt="Web Icons" src="img/gallery/iconsMockup2.jpg"></a>
+					<a class="fancybox" rel="group" title="Web Icons" href="img/gallery/iconsMockup2.jpg"><img class="gallery-image" alt="Web Icons" src="img/gallery/iconsMockup2.jpg"></a>
 				</li>
 
 								
 			<!--Begin Logos-->
 				<li>
-					<a href="img/gallery/apexMockup.jpg"><img class="gallery-image" alt="Apex Logo" src="img/gallery/apexMockup.jpg"></a>
+					<a class="fancybox" rel="group" title="Apex Logo" href="img/gallery/apexMockup.jpg"><img class="gallery-image" alt="Apex Logo" src="img/gallery/apexMockup.jpg"></a>
 				</li>
 				<li>
-					<a href="img/gallery/foreverHomeMockup.jpg"><img class="gallery-image" alt="Forever Home Logo" src="img/gallery/foreverHomeMockup.jpg"></a>
+					<a class="fancybox" rel="group" title="Forever Home Logo" href="img/gallery/foreverHomeMockup.jpg"><img class="gallery-image" alt="Forever Home Logo" src="img/gallery/foreverHomeMockup.jpg"></a>
 				</li>
 				
 			<!--Begin Postcards-->
 				<li>
-					<a href="img/gallery/umbrellaMockup.jpg"><img class="gallery-image" alt="Be Nice Campaign Post Card" src="img/gallery/umbrellaMockup.jpg"></a>
+					<a class="fancybox" rel="group" title="Be Nice Campaign Post Card" href="img/gallery/umbrellaMockup.jpg"><img class="gallery-image" alt="Be Nice Campaign Post Card" src="img/gallery/umbrellaMockup.jpg"></a>
 				</li>				
 			</ul>
 		</section>
@@ -102,8 +103,15 @@
      </div>
 <!--End Footer-->
 
-    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+        <script src="js/plugins.js"></script>
+        <script type="text/javascript">
+			$(document).ready(function() {
+			$(".fancybox").fancybox();
+			});
+		</script>
    </body>
 </html>
